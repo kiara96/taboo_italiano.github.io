@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.keyword {
+    font-size: 24px;
+}
+
+.taboo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taboo-list li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#next-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
